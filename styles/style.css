@@ -302,8 +302,10 @@ body{
     }
 
     .imagem__index,
-    .imagem__about {
-        width: 100%;
+    .imagem__about, 
+    .imagem__project__desafio2,
+    .imagem__project__desafio3{
+        width: 50%;
         position: static;
     }
 
