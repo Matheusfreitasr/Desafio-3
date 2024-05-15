@@ -241,6 +241,9 @@ body{
     .apresentacao__conteudo{
         width: auto;
     }
+    .apresentacao__links__subtitulo{
+        font-size: 1rem;
+    }
     
     .apresentacao__projeto{
         flex-direction: column;
@@ -253,8 +256,9 @@ body{
 
     .linha__borda__desafio2,
     .linha__borda__desafio3{
-        left: 50px;
-        top: -250px;
+        width: 200px;
+        left: 20px;
+        top: -260px;
     }
 }
 
@@ -273,6 +277,7 @@ body{
     }
 
     .apresentacao {
+        flex-direction: column-reverse;
         margin: 2%;
     }
 
@@ -285,7 +290,7 @@ body{
     }
 
     .apresentacao__conteudo__texto {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .apresentacao__links__subtitulo {
@@ -301,18 +306,17 @@ body{
     .imagem__about, 
     .imagem__project__desafio2,
     .imagem__project__desafio3{
-        width: 100%;
-        position: static;
+        width: 80%;
+
     }
 
-    .linha__borda,
     .linha__borda__about{
-        width: 390px;
-        height: 240px;
+        width: 360px;
+        height: 220px;
         border-radius: 1rem;
         border: 3px solid var(--cor-terciaria);
-        margin-top: -240px;
-        margin-left: 40px;
+        margin-top: 20px;
+        margin-left: 50px;
     }
 
     .rodape {
