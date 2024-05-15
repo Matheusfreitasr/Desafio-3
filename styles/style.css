@@ -254,11 +254,31 @@ body{
         flex-direction: column;
     }
 
+    .linha__borda{
+        width: 210px;
+        height: 150px;
+        border-radius: 1rem;
+        border: 3px solid var(--cor-terciaria);
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    
     .linha__borda__desafio2,
     .linha__borda__desafio3{
-        width: 200px;
+        width: 110px;
+        height: 256px;
         left: 20px;
+        border-radius: 2rem;
+        border: 3px solid var(--cor-terciaria);
         top: -260px;
+    }
+
+    .imagem__index,
+    .imagem__about, 
+    .imagem__project__desafio2,
+    .imagem__project__desafio3{
+        width: 80%;
+
     }
 }
 
@@ -275,12 +295,7 @@ body{
     .cabecalho__menu__link {
         font-size: 1rem;
     }
-
-    .apresentacao {
-        flex-direction: column-reverse;
-        margin: 2%;
-    }
-
+    
     .apresentacao__conteudo {
         width: 50%;
     }
@@ -290,10 +305,11 @@ body{
     }
 
     .apresentacao__conteudo__texto {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .apresentacao__links__subtitulo {
+        
         font-size: 1rem;
     }
 
@@ -306,17 +322,16 @@ body{
     .imagem__about, 
     .imagem__project__desafio2,
     .imagem__project__desafio3{
-        width: 80%;
-
+        width: 50%;
     }
 
     .linha__borda__about{
-        width: 360px;
-        height: 220px;
+        width: 210px;
+        height: 130px;
         border-radius: 1rem;
         border: 3px solid var(--cor-terciaria);
         margin-top: 20px;
-        margin-left: 50px;
+        margin-left: 40px;
     }
 
     .rodape {
