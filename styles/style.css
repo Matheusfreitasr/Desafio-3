@@ -254,7 +254,7 @@ body{
     .linha__borda__desafio2,
     .linha__borda__desafio3{
         left: 50px;
-        top: -260px;
+        top: -250px;
     }
 }
 
@@ -264,12 +264,12 @@ body{
     }
 
     .cabecalho__menu {
-        flex-direction: column;
+        flex-direction: center;
         gap: 10px;
     }
 
     .cabecalho__menu__link {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .apresentacao {
@@ -281,20 +281,20 @@ body{
     }
 
     .apresentacao__conteudo__titulo {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .apresentacao__conteudo__texto {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .apresentacao__links__subtitulo {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .apresentacao__links__navegacao {
         width: 70%;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .imagem__index,
@@ -307,10 +307,12 @@ body{
 
     .linha__borda,
     .linha__borda__about{
-        width: 100%;
-        height: auto;
-        position: relative;
+        width: 390px;
+        height: 240px;
         border-radius: 1rem;
+        border: 3px solid var(--cor-terciaria);
+        margin-top: -240px;
+        margin-left: 40px;
     }
 
     .rodape {
