@@ -307,7 +307,7 @@ body{
 
 @media (max-width: 480px) {
     .cabecalho__menu {
-        gap: 40px;
+        gap: 30px;
         flex-direction: center;
         align-items: center;
     }
