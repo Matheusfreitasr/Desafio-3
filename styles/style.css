@@ -214,7 +214,7 @@ body{
 
 @media (max-width: 1200px) {
     .cabecalho {
-        padding: 2% 5%;                
+        padding: 2% 20%;                
     }
 
     .cabecalho__menu {
@@ -235,6 +235,7 @@ body{
     .apresentacao__imagem__projeto {
         flex-direction: column;
         align-items: center;
+        gap: 20px;
     }
 
     .imagem__index,
@@ -245,7 +246,7 @@ body{
     }
 
     .linha__borda{
-        width: 280px;
+        width: 300px;
         height: 190px;
         border-radius: 1rem;
         border: 3px solid var(--cor-terciaria);
@@ -254,7 +255,7 @@ body{
     }
     
     .linha__borda__about {
-        width: 280px;
+        width: 300px;
         height: 150px;
         border-radius: 1rem;
         border: 3px solid var(--cor-terciaria);
