@@ -77,10 +77,10 @@ body{
 }
 
 .apresentacao__conteudo{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
 }
 
 .apresentacao__conteudo__titulo{
@@ -223,7 +223,7 @@ body{
     }
 
     .apresentacao {
-        margin: 5%;
+        margin: 5% 10%;
         flex-direction: column-reverse;
         gap: 40px;
     }
@@ -239,11 +239,40 @@ body{
 
     .imagem__index,
     .imagem__about {
-        width: 100%;
+        width: 50%;
         position: relative;
         margin: 0px;
     }
+
+    .linha__borda{
+        width: 460px;
+        height: 280px;
+        border-radius: 1rem;
+        border: 3px solid var(--cor-terciaria);
+        margin-top: -280px;
+        margin-left: 30px;
+    }
     
+    .linha__borda__about {
+        width: 460px;
+        height: 250px;
+        border-radius: 1rem;
+        border: 3px solid var(--cor-terciaria);
+        margin-top: -250px;
+        margin-left: 30px;
+    }
+    
+    .linha__borda__desafio2,
+    .linha__borda__desafio3{
+        width: 280px;
+        height: 260px;
+        border-radius: 4rem;
+        border: 3px solid var(--cor-terciaria);
+        position: relative;
+        left: 20px;
+        top: -260px;
+        z-index: -1;
+}
     .rodape {
         position: relative;
         margin-top: 20px;
@@ -253,41 +282,51 @@ body{
 }
 
 @media (max-width: 768px) {
+    .cabecalho{
+        padding: 2% 5%;
+    }
+    
     .cabecalho__menu {
         align-items: center;
-        gap: 80px;
+        gap: 40px;
     }
-
+    
     .apresentacao {
         margin: 5% 10%;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    
+    .apresentacao__conteudo {
+        width: 100%;
     }
 
     .apresentacao__conteudo__titulo {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .apresentacao__conteudo__texto {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     .apresentacao__links__navegacao {
-        width: 100%;
-        font-size: 1.25rem;
+        width: 50%;
+        font-size: 1rem;
         padding: 16px 0;
     }
 
     .imagem__index,
     .imagem__about {
-        width: 100%;
+        width: 50%;
     }
 
     .linha__borda,
     .linha__borda__about {
-        width: 590px;
-        height: 380px;
+        width: 290px;
+        height: 180px;
         border-radius: 1rem;
         border: 3px solid var(--cor-terciaria);
-        margin-top: -380px;
+        margin-top: -180px;
         margin-left: 30px;
     }
 
