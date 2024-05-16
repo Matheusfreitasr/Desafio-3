@@ -150,22 +150,14 @@ body{
     flex-direction: row;
 }
 
-.imagem__index{
-    width: 400px;
-    height: auto;
-    border-radius: 1rem;
-    position: absolute;
-    box-sizing: border-box;
-    margin: 10px;
-}
-
+.imagem__index,
 .imagem__about{
     width: 400px;
     height: auto;
     border-radius: 1rem;
     position: absolute;
     box-sizing: border-box;
-    margin: 10px;   
+    margin: 10px;
 }
 
 .imagem__project__desafio2,
@@ -262,7 +254,7 @@ body{
 @media (max-width: 768px) {
     .cabecalho__menu {
         flex-direction: center;
-        gap: 20px;
+        gap: 80px;
     }
 
     .apresentacao {
@@ -290,9 +282,12 @@ body{
 
     .linha__borda,
     .linha__borda__about {
-        width: 100%;
-        height: auto;
-        border: none;
+        width: 590px;
+        height: 380px;
+        border-radius: 1rem;
+        border: 3px solid var(--cor-terciaria);
+        margin-top: -380px;
+        margin-left: 30px;
     }
 
     .linha__borda__desafio2,
