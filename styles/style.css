@@ -222,6 +222,15 @@ body{
         gap: 70px;
     }
 
+    .cabecalho__menu__link {
+        font-family: var(--fonte-primaria);
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--cor-terciaria);
+        text-decoration: none;
+    }
+    
+
     .apresentacao {
         margin: 5% 10%;
         flex-direction: column-reverse;
@@ -244,22 +253,22 @@ body{
         position: relative;
         margin: 0px;
     }
-
+    
     .linha__borda{
         width: 300px;
-        height: 190px;
+        height: 197px;
         border-radius: 1rem;
         border: 3px solid var(--cor-terciaria);
-        margin-top: -190px;
+        margin-top: -200px;
         margin-left: 30px;
     }
     
     .linha__borda__about {
         width: 300px;
-        height: 150px;
+        height: 170px;
         border-radius: 1rem;
         border: 3px solid var(--cor-terciaria);
-        margin-top: -150px;
+        margin-top: -170px;
         margin-left: 30px;
     }
     
@@ -323,19 +332,12 @@ body{
 
     .linha__borda,
     .linha__borda__about {
-        width: 290px;
-        height: 180px;
-        border-radius: 1rem;
-        border: 3px solid var(--cor-terciaria);
-        margin-top: -180px;
-        margin-left: 30px;
+        display: none;
     }
 
     .linha__borda__desafio2,
     .linha__borda__desafio3 {
-        width: 100%;
-        height: auto;
-        border: none;
+        display: none;
     }
 
     .rodape {
@@ -347,9 +349,13 @@ body{
 }
 
 @media (max-width: 480px) {
+    .cabecalho {
+        padding: 2% 5%;                
+    }
+
     .cabecalho__menu {
         align-items: center;
-        gap: 40px;
+        gap: 35px;
     }
 
     .apresentacao {
@@ -357,7 +363,7 @@ body{
     }
 
     .apresentacao__conteudo__titulo {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     .apresentacao__conteudo__texto {
