@@ -221,6 +221,7 @@ body{
     .cabecalho__menu {
         align-items: center;
         gap: 20px;
+        margin: 0 auto;
     }
 
     .cabecalho__menu__link {
@@ -300,6 +301,7 @@ body{
     .cabecalho__menu {
         align-items: center;
         gap: 20px;
+        margin: 0 auto;
     }
 
     .cabecalho__menu__link {
@@ -365,6 +367,7 @@ body{
     .cabecalho__menu {
         align-items: center;
         gap: 12px;
+        margin: 0 auto;
     }
 
     .apresentacao {
