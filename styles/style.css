@@ -47,7 +47,7 @@ body{
     display: flex;
     align-items: center;
     gap: 50px;
-    max-width: 900px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -220,7 +220,7 @@ body{
 
     .cabecalho__menu {
         align-items: center;
-        gap: 20px;
+        gap: 70px;
         margin: 0 auto;
     }
 
@@ -266,11 +266,11 @@ body{
     }
     
     .linha__borda__about {
-        width: 300px;
-        height: 170px;
+        width: 310px;
+        height: 190px;
         border-radius: 1rem;
         border: 3px solid var(--cor-terciaria);
-        margin-top: -170px;
+        margin-top: -180px;
         margin-left: 30px;
     }
     
@@ -366,7 +366,7 @@ body{
 
     .cabecalho__menu {
         align-items: center;
-        gap: 12px;
+        gap: 8px;
         margin: 0 auto;
     }
 
